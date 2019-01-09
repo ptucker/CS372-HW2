@@ -37,6 +37,7 @@ public class Person {
      * Sets person's age
      * @param ag Desired age
      */
+    //PT -- make sure you're getting a valid age, phonenumber. -2
     public void setAge(int ag) { age = ag; }
 
     /**
