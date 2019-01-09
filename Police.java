@@ -6,6 +6,7 @@ import java.util.Scanner;
  * @version 1.00, 8 January 2019
  */
 public class Police extends Person implements Employee {
+    //PT -- I don't see where this variable changes? -2
     private int pay = 0;
     private int ID;
     private String location;
@@ -95,6 +96,7 @@ public class Police extends Person implements Employee {
      * @return Total pay for specified officer
      */
     public int getPay() {
+        //PT -- No need to System.out anything here.
         System.out.println(name + " was paid $" + pay  + " today.");
         return pay;
     }
