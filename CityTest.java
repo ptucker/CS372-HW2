@@ -5,7 +5,7 @@
  */
 public class CityTest extends City {
   public static void main(String[] args) {
-
+//PT -- where are cityBuildings defined? Where is your City class? -4
     for (int i = 0; i < cityBuildings.length; i++) {
       System.out.println(cityBuildings[i].toString());
     }
