@@ -37,6 +37,7 @@ public class Teacher extends Person implements Employee {
      * Sets grade level the teacher instructs
      * @param gl Grade level
      */
+    //PT -- make sure gl is valid. -2
     public void setGradeLevel(String gl) { gradeLevel = gl; }
 
     /**
@@ -103,6 +104,7 @@ public class Teacher extends Person implements Employee {
      * @return Total pay for specified officer
      */
     public int getPay() {
+        //PT -- again, no need to Syste,out here.
         System.out.println(name + " was paid $" + pay + " today.");
         return pay;
     }
