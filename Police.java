@@ -6,6 +6,7 @@ import java.util.Scanner;
  * @version 1.00, 8 January 2019
  */
 public class Police extends Person implements Employee {
+    //PT -- Oh, never mind. I understand what you're doing now. !(-2)
     private int pay = 0;
     private int ID;
     private String location;
