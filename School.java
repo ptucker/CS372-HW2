@@ -4,7 +4,7 @@
  * @version 1.00, 8 January 2019
  */
 public class School extends Building {
-
+//PT -- need to maintain occupants in an ArrayList here (and in CityHall). -2
     School() {
         super();
     }
